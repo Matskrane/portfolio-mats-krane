@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
 @import "./components/socialBar";
 @import "./components/variables";
+@import "./components/projects";
 
 *{
     box-sizing: border-box;
@@ -40,10 +41,11 @@ img {
 
 
 .background-gradient {
-    height: 850px;
+    height: 830px;
+    //clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%); 
     background-image: linear-gradient(to right bottom, #00ccff, #00afee, #0092da, #0876c3, #2859a9, #2f4d9d, #344090, #383483, #383583, #373584, #373684, #373684);
 }
-// clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+
 .header {
     text-align: center;
     padding-top: 20px;

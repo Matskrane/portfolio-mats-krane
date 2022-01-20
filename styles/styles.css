@@ -28,6 +28,10 @@
   text-shadow: 0 0 30px #919191;
 }
 
+.github {
+  margin-top: -5px;
+}
+
 #linkedin {
   color: #00BAFE;
 }
@@ -61,6 +65,15 @@
 .youtube:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+.project-cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  max-width: 250px;
+  margin: auto;
 }
 
 * {
@@ -101,7 +114,7 @@ img {
 }
 
 .background-gradient {
-  height: 850px;
+  height: 830px;
   background-image: -webkit-gradient(linear, left top, right bottom, from(#00ccff), color-stop(#00afee), color-stop(#0092da), color-stop(#0876c3), color-stop(#2859a9), color-stop(#2f4d9d), color-stop(#344090), color-stop(#383483), color-stop(#383583), color-stop(#373584), color-stop(#373684), to(#373684));
   background-image: linear-gradient(to right bottom, #00ccff, #00afee, #0092da, #0876c3, #2859a9, #2f4d9d, #344090, #383483, #383583, #373584, #373684, #373684);
 }
