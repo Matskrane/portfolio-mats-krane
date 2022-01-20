@@ -1,0 +1,60 @@
+
+.social-bar {
+    position: fixed;
+    top: 50%;
+    width: 55px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.social-bar a {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#github {
+    color: #1B1B1B;
+}
+
+#github:hover {
+    text-shadow: 0 0 30px #919191;
+} 
+
+#linkedin {
+    color: #00BAFE;
+}
+
+#linkedin:hover {
+    text-shadow: 0 0 30px #00BAFE;
+}
+
+#youtube {
+    color: #FF1D1D;
+}
+
+#youtube:hover {
+    text-shadow: 0 0 30px #FF1D1D;
+}
+
+.youtube {
+    margin-bottom: 12px;
+}
+
+.github:hover {
+    transform: scale(1.2);
+}
+
+.linkedin:hover {
+    transform: scale(1.2);
+}
+
+.youtube:hover {
+    transform: scale(1.2);
+}
+
