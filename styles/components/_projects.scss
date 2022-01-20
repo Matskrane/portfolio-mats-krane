@@ -2,6 +2,43 @@
 .project-cards {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 250px;
+    max-width: 300px;
     margin: auto;
+    margin-top: 50px;
 }
+
+.card {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    color: white;
+    border-radius: 2px;
+}
+
+.card img {
+    width: 150px;
+}
+
+.card h3 {
+    margin-left: 10px;
+}
+
+.card p {
+    margin-left: 10px;
+    font-size: 12px;
+    width: 80%;
+}
+
+#card-one {
+    background: rgb(29,28,28);
+    background: linear-gradient(97deg, rgba(29,28,28,1) 0%, rgba(36,44,44,1) 62%, rgba(255,181,32,1) 100%);
+}
+
+#card-one img {
+    height: 120px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+
+
