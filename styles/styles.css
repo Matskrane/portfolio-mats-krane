@@ -74,7 +74,7 @@
       grid-template-columns: 1fr;
   max-width: 300px;
   margin: 50px auto;
-  margin-left: 55px;
+  margin-left: 50px;
 }
 
 .card {
@@ -87,6 +87,8 @@
   color: white;
   border-radius: 4px;
   padding: 15px 0;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+          box-shadow: inset 0 0 10px #000000;
 }
 
 .card img {
