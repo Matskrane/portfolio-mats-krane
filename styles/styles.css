@@ -94,6 +94,7 @@
 
 .card img {
   width: 150px;
+  height: 150px;
   margin-right: 10px;
   margin-top: 10px;
 }
@@ -113,16 +114,77 @@
   background: linear-gradient(97deg, #1d1c1c 0%, #242c2c 62%, #ffb520 100%);
 }
 
-#card-one img {
-  height: 130px;
-}
-
 #card-two {
   background: linear-gradient(97deg, #fd0000 0%, #ff785a 45%, #424242 100%);
 }
 
 #card-three {
   background: linear-gradient(97deg, #e92569 0%, #e92569 54%, #f1f1f1 100%);
+}
+
+.container-contact h3 {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 30px;
+  overflow: hidden;
+}
+
+.contact-form-text {
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: white;
+  padding: 20px 40px;
+  outline: none;
+  color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contact-form-text:focus {
+  -webkit-box-shadow: 0 0 10px 4px #E89F00;
+          box-shadow: 0 0 10px 4px #E89F00;
+}
+
+textarea.contact-form-text {
+  resize: none;
+  height: 120px;
+  font-size: 18px;
+}
+
+.contact-form-btn {
+  float: right;
+  border: 0;
+  background: #E89F00;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 18px;
+}
+
+.contact-form-btn:hover {
+  background: #1bb2e9;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border-radius: 5px;
 }
 
 * {
@@ -163,7 +225,6 @@ img {
 }
 
 .background-gradient {
-  height: 830px;
   -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
           box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   background-image: -webkit-gradient(linear, left top, right bottom, from(#00ccff), color-stop(#00afee), color-stop(#0092da), color-stop(#0876c3), color-stop(#2859a9), color-stop(#2f4d9d), color-stop(#344090), color-stop(#383483), color-stop(#383583), color-stop(#373584), color-stop(#373684), to(#373684));
@@ -254,6 +315,7 @@ img {
 .my-projects {
   margin-top: 70px;
   text-align: center;
+  padding-bottom: 25px;
 }
 
 .my-projects h2 {
