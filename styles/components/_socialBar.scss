@@ -62,3 +62,18 @@
     transform: scale(1.2);
 }
 
+@media (min-width: 1100px) {
+
+    .social-bar {
+        top: 10%;
+        width: 60px;
+    }
+
+    .social-bar a {
+        font-size: 50px;
+        height: 60px;
+    }
+
+    
+}
+

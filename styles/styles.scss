@@ -54,7 +54,8 @@ img {
 
 .header h1 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
+    letter-spacing: 1px;
 }
 
 .header p {
@@ -77,7 +78,7 @@ img {
 .programming-languages {
     text-align: center;
     width: 250px;
-    margin: 100px auto 0;
+    margin: 50px auto;
 }
 
 .programming-languages h2 {
@@ -145,7 +146,82 @@ img {
 
 .copyright {
     text-align: center;
-    color: rgb(170, 170, 170);
+    color: rgb(216, 216, 216);
     padding-top: 70px;
+    padding-bottom: 10px;
     opacity: 90%;
+}
+
+// Responsive
+
+@media (min-width: 1100px) {
+
+    .header {
+        padding-top: 40px;
+    }
+    
+    .header h1 {
+        font-size: 70px;
+    }
+
+    .header p {
+        font-size: 35px;
+    }
+
+    .personal-image {
+        width: 220px;
+    }
+
+    .personal-info p {
+        font-size: 25px;
+        width: 450px;
+    }
+
+    .programming-languages {
+        width: 500px;
+        margin-top: 80px;
+    }
+    
+    .programming-languages h2 {
+        font-size: 40px;
+        padding-bottom: 15px;
+    }
+    
+    .border {
+        height: 10px;
+        border-radius: 5px;
+    }
+
+    .programming-icons {
+        margin-top: 40px;
+        gap: 20px;
+    }
+    
+    .programming-icons i {
+        font-size: 60px;
+    }
+
+    .programming-icons p {
+        font-size: 25px;
+    }
+
+    .my-projects {
+        padding-bottom: 50px;
+    }
+    
+    .my-projects h2 {
+        font-size: 40px;
+        padding-bottom: 15px;
+    }
+    
+    .my-projects .border {
+        width: 250px;
+    }
+
+    .copyright {
+        color: rgb(216, 216, 216);
+        padding-top: 100px;
+        font-size: 20px;
+    }
+    
 }
